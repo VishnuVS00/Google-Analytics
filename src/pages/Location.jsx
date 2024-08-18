@@ -6,8 +6,8 @@ const TRACKING_ID = "G-2YGDZ9NQ05"
 function Location() {
   useEffect(() => {
     ReactGA4.initialize(TRACKING_ID)
-    ReactGA4.send({ hitType: 'pageview', page: window.location.pathname })
-    // ReactGA4.pageview(window.location.pathname)
+    // ReactGA4.send({ hitType: 'pageview', page: window.location.pathname })
+    ReactGA4.pageview(window.location.pathname)
   }, [])
 
   return (
