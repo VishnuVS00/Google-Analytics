@@ -6,7 +6,46 @@ function Exhibitor() {
   }, [])
 
   return (
-    <div style={{ display: 'flex', border: '1px solid white', width: '100%', height: "70vh", alignItems: "center", justifyContent: "center", borderRadius: "8px" }}>Exhibitor</div>
+    <div className='flex flex-col border border-white h-[70vh] w-full rounded-md p-5'>
+      <h2 className='font-bold'>Exhibitor</h2>
+      <div className='flex justify-between'>
+        <div>
+          <p>Search</p>
+
+          <div className='flex gap-5'>
+            <p>s1</p>
+            <p>s2</p>
+            <p>s3</p>
+            <p>s4</p>
+          </div>
+        </div>
+
+
+
+        <div className='flex flex-col w-[60vw]'>
+          <p className='flex self-end'>Show all Event Days</p>
+          <div className='flex justify-between'>
+            <div className='flex gap-3'>
+              <p className='border rounded-md p-1 py-[1px]'>WestHall</p>
+              <p className='border rounded-md p-1 py-[1px]'>CentralHall</p>
+            </div>
+            <p className='border rounded-md p-1 py-[1px]'>Full Screen</p>
+          </div>
+
+
+          <div className='border h-[50vh] mt-3'>
+            <div className='flex justify-end m-2 gap-6'>
+              <div className='flex gap-8 items-center border px-2'>
+                <p>+</p>
+                <p>-</p>
+                <p>++</p>
+              </div>
+              <p className='border rounded-md px-1'>Expand </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 
