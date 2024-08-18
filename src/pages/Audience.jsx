@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Audience() {
+  useEffect(() => {
+    
+  }, [])
+  
   return (
-    <div>Audience</div>
+    <div style={{ display: 'flex', border: '1px solid white', width: '100%', height: "70vh", alignItems: "center", justifyContent: "center", borderRadius: "8px" }}>Audience</div>
   )
 }
 

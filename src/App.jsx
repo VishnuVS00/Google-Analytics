@@ -6,11 +6,13 @@ import Audience from "./pages/Audience";
 import Exhibitor from "./pages/Exhibitor";
 import Traffic from "./pages/Traffic";
 import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 
 
 function App() {
   return (
    <BrowserRouter>
+    <Layout/>
     <Navbar/>
       <Routes>
         <Route path='/' element={<Overview/>}/>
