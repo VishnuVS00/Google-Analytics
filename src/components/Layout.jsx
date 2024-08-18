@@ -1,9 +1,15 @@
 import React from 'react'
+import ReactGA from "react-ga4";
 
 function Layout() {
 
    const handleLayoutClick=(event) => {
-     console.log(" 🚀 :", event)
+     ReactGA.event({
+      category:event,
+      action:'clicked',
+      label: 'layout label',
+      value:event,
+     })
    }
     
   return (

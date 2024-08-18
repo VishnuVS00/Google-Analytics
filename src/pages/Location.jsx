@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
+import ReactGA from "react-ga4";
 
 function Location() {
   useEffect(() => {
-
+    ReactGA.pageview(window.location.pathname)
   }, [])
 
   return (
