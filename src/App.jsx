@@ -8,7 +8,7 @@ import Traffic from './pages/Traffic';
 import Navbar from './components/Navbar';
 import Layout from './components/Layout';
 
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 ReactGA.initialize('G-2YGDZ9NQ05');
 
 function App() {
