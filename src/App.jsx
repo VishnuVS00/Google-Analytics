@@ -7,7 +7,7 @@ import Exhibitor from "./pages/Exhibitor";
 import Traffic from "./pages/Traffic";
 import Navbar from './components/Navbar';
 import Layout from './components/Layout';
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga";
 
 ReactGA.initialize("G-2YGDZ9NQ05");
 
