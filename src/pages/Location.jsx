@@ -6,7 +6,8 @@ const TRACKING_ID = "G-2YGDZ9NQ05"
 function Location() {
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID)
-    ReactGA.pageview(window.location.pathname)
+    // ReactGA.pageview(window.location.pathname)
+    ReactGA.send({ hitType: "pageview", page: location.pathname, title: "Custom Title" });
   }, [])
 
   return (

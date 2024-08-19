@@ -35,7 +35,8 @@ function RouteChangeTracker() {
   useEffect(() => {
     console.log('useEffect 🚀 :', location.pathname);
     ReactGA.set({ page: location.pathname });
-    ReactGA.pageview(location.pathname);
+    // ReactGA.pageview(location.pathname);
+    ReactGA.send({ hitType: "pageview", page: location.pathname, title: "Custom Title" });
   }, [location]);
 
   return null; // This component doesn't render anything
