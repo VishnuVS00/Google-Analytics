@@ -4,12 +4,14 @@ ReactGA.initialize('G-F3CL2V9TFD');
 function Layout() {
 
    const handleLayoutClick=(event) => {
-     ReactGA.event({
-      category:event,
-      action:'clicked',
-      label: 'layout label',
-      value:event,
-     })
+    ReactGA.event({
+      category: "your category",
+      action: "your action",
+      label: "your label", // optional
+      value: 99, // optional, must be a number
+      nonInteraction: true, // optional, true/false
+      transport: "xhr", // optional, beacon/xhr/image
+    });
    }
     
   return (
