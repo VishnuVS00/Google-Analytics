@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import Layout from './components/Layout';
 
 import ReactGA from 'react-ga4';
-ReactGA.initialize('G-5TEMF0BMS1');
+ReactGA.initialize('G-F3CL2V9TFD');
 
 function App() {
   return (

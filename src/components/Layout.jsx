@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactGA from "react-ga4";
-ReactGA.initialize('G-5TEMF0BMS1');
+ReactGA.initialize('G-F3CL2V9TFD');
 function Layout() {
 
    const handleLayoutClick=(event) => {
