@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import ReactGA from "react-ga4";
 
-const TRACKING_ID = "G-2YGDZ9NQ05"
+const TRACKING_ID = "G-5TEMF0BMS1"
 
 function Location() {
   useEffect(() => {
